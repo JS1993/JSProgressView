@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFFFA5AE1CF92628001B6CC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFFA5AD1CF92628001B6CC0 /* main.m */; };
+		CFFFA5B11CF92628001B6CC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFFA5B01CF92628001B6CC0 /* AppDelegate.m */; };
+		CFFFA5B41CF92628001B6CC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFFA5B31CF92628001B6CC0 /* ViewController.m */; };
+		CFFFA5B71CF92628001B6CC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFFA5B51CF92628001B6CC0 /* Main.storyboard */; };
+		CFFFA5B91CF92628001B6CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFFA5B81CF92628001B6CC0 /* Assets.xcassets */; };
+		CFFFA5BC1CF92628001B6CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFFA5BA1CF92628001B6CC0 /* LaunchScreen.storyboard */; };
+		CFFFA5C71CF92628001B6CC0 /* JSProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFFA5C61CF92628001B6CC0 /* JSProgressViewTests.m */; };
+		CFFFA5D21CF92628001B6CC0 /* JSProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFFA5D11CF92628001B6CC0 /* JSProgressViewUITests.m */; };
+		CFFFA5E11CF9263C001B6CC0 /* JSProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFFA5E01CF9263C001B6CC0 /* JSProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFFFA5C31CF92628001B6CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFFA5A11CF92628001B6CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFFA5A81CF92628001B6CC0;
+			remoteInfo = JSProgressView;
+		};
+		CFFFA5CE1CF92628001B6CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFFA5A11CF92628001B6CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFFA5A81CF92628001B6CC0;
+			remoteInfo = JSProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFFFA5A91CF92628001B6CC0 /* JSProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFFA5AD1CF92628001B6CC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFFFA5AF1CF92628001B6CC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFFFA5B01CF92628001B6CC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFFFA5B21CF92628001B6CC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFFFA5B31CF92628001B6CC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFFFA5B61CF92628001B6CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFFFA5B81CF92628001B6CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFFFA5BB1CF92628001B6CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFFFA5BD1CF92628001B6CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFFA5C21CF92628001B6CC0 /* JSProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFFA5C61CF92628001B6CC0 /* JSProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSProgressViewTests.m; sourceTree = "<group>"; };
+		CFFFA5C81CF92628001B6CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFFA5CD1CF92628001B6CC0 /* JSProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFFA5D11CF92628001B6CC0 /* JSProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSProgressViewUITests.m; sourceTree = "<group>"; };
+		CFFFA5D31CF92628001B6CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFFA5DF1CF9263C001B6CC0 /* JSProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSProgressView.h; sourceTree = "<group>"; };
+		CFFFA5E01CF9263C001B6CC0 /* JSProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFFFA5A61CF92628001B6CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFFA5BF1CF92628001B6CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFFA5CA1CF92628001B6CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFFFA5A01CF92628001B6CC0 = {
+			isa = PBXGroup;
+			children = (
+				CFFFA5AB1CF92628001B6CC0 /* JSProgressView */,
+				CFFFA5C51CF92628001B6CC0 /* JSProgressViewTests */,
+				CFFFA5D01CF92628001B6CC0 /* JSProgressViewUITests */,
+				CFFFA5AA1CF92628001B6CC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFFA5AA1CF92628001B6CC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFFFA5A91CF92628001B6CC0 /* JSProgressView.app */,
+				CFFFA5C21CF92628001B6CC0 /* JSProgressViewTests.xctest */,
+				CFFFA5CD1CF92628001B6CC0 /* JSProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFFFA5AB1CF92628001B6CC0 /* JSProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				CFFFA5AF1CF92628001B6CC0 /* AppDelegate.h */,
+				CFFFA5B01CF92628001B6CC0 /* AppDelegate.m */,
+				CFFFA5B21CF92628001B6CC0 /* ViewController.h */,
+				CFFFA5B31CF92628001B6CC0 /* ViewController.m */,
+				CFFFA5B51CF92628001B6CC0 /* Main.storyboard */,
+				CFFFA5B81CF92628001B6CC0 /* Assets.xcassets */,
+				CFFFA5BA1CF92628001B6CC0 /* LaunchScreen.storyboard */,
+				CFFFA5BD1CF92628001B6CC0 /* Info.plist */,
+				CFFFA5AC1CF92628001B6CC0 /* Supporting Files */,
+				CFFFA5DF1CF9263C001B6CC0 /* JSProgressView.h */,
+				CFFFA5E01CF9263C001B6CC0 /* JSProgressView.m */,
+			);
+			path = JSProgressView;
+			sourceTree = "<group>";
+		};
+		CFFFA5AC1CF92628001B6CC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFFFA5AD1CF92628001B6CC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFFFA5C51CF92628001B6CC0 /* JSProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFFA5C61CF92628001B6CC0 /* JSProgressViewTests.m */,
+				CFFFA5C81CF92628001B6CC0 /* Info.plist */,
+			);
+			path = JSProgressViewTests;
+			sourceTree = "<group>";
+		};
+		CFFFA5D01CF92628001B6CC0 /* JSProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFFA5D11CF92628001B6CC0 /* JSProgressViewUITests.m */,
+				CFFFA5D31CF92628001B6CC0 /* Info.plist */,
+			);
+			path = JSProgressViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFFFA5A81CF92628001B6CC0 /* JSProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFFA5D61CF92628001B6CC0 /* Build configuration list for PBXNativeTarget "JSProgressView" */;
+			buildPhases = (
+				CFFFA5A51CF92628001B6CC0 /* Sources */,
+				CFFFA5A61CF92628001B6CC0 /* Frameworks */,
+				CFFFA5A71CF92628001B6CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSProgressView;
+			productName = JSProgressView;
+			productReference = CFFFA5A91CF92628001B6CC0 /* JSProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFFFA5C11CF92628001B6CC0 /* JSProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFFA5D91CF92628001B6CC0 /* Build configuration list for PBXNativeTarget "JSProgressViewTests" */;
+			buildPhases = (
+				CFFFA5BE1CF92628001B6CC0 /* Sources */,
+				CFFFA5BF1CF92628001B6CC0 /* Frameworks */,
+				CFFFA5C01CF92628001B6CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFFA5C41CF92628001B6CC0 /* PBXTargetDependency */,
+			);
+			name = JSProgressViewTests;
+			productName = JSProgressViewTests;
+			productReference = CFFFA5C21CF92628001B6CC0 /* JSProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFFFA5CC1CF92628001B6CC0 /* JSProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFFA5DC1CF92628001B6CC0 /* Build configuration list for PBXNativeTarget "JSProgressViewUITests" */;
+			buildPhases = (
+				CFFFA5C91CF92628001B6CC0 /* Sources */,
+				CFFFA5CA1CF92628001B6CC0 /* Frameworks */,
+				CFFFA5CB1CF92628001B6CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFFA5CF1CF92628001B6CC0 /* PBXTargetDependency */,
+			);
+			name = JSProgressViewUITests;
+			productName = JSProgressViewUITests;
+			productReference = CFFFA5CD1CF92628001B6CC0 /* JSProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFFA5A11CF92628001B6CC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CFFFA5A81CF92628001B6CC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CFFFA5C11CF92628001B6CC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CFFFA5A81CF92628001B6CC0;
+					};
+					CFFFA5CC1CF92628001B6CC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CFFFA5A81CF92628001B6CC0;
+					};
+				};
+			};
+			buildConfigurationList = CFFFA5A41CF92628001B6CC0 /* Build configuration list for PBXProject "JSProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFFFA5A01CF92628001B6CC0;
+			productRefGroup = CFFFA5AA1CF92628001B6CC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFFFA5A81CF92628001B6CC0 /* JSProgressView */,
+				CFFFA5C11CF92628001B6CC0 /* JSProgressViewTests */,
+				CFFFA5CC1CF92628001B6CC0 /* JSProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFFFA5A71CF92628001B6CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFFA5BC1CF92628001B6CC0 /* LaunchScreen.storyboard in Resources */,
+				CFFFA5B91CF92628001B6CC0 /* Assets.xcassets in Resources */,
+				CFFFA5B71CF92628001B6CC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFFA5C01CF92628001B6CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFFA5CB1CF92628001B6CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFFFA5A51CF92628001B6CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFFA5E11CF9263C001B6CC0 /* JSProgressView.m in Sources */,
+				CFFFA5B41CF92628001B6CC0 /* ViewController.m in Sources */,
+				CFFFA5B11CF92628001B6CC0 /* AppDelegate.m in Sources */,
+				CFFFA5AE1CF92628001B6CC0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFFA5BE1CF92628001B6CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFFA5C71CF92628001B6CC0 /* JSProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFFA5C91CF92628001B6CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFFA5D21CF92628001B6CC0 /* JSProgressViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFFFA5C41CF92628001B6CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFFA5A81CF92628001B6CC0 /* JSProgressView */;
+			targetProxy = CFFFA5C31CF92628001B6CC0 /* PBXContainerItemProxy */;
+		};
+		CFFFA5CF1CF92628001B6CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFFA5A81CF92628001B6CC0 /* JSProgressView */;
+			targetProxy = CFFFA5CE1CF92628001B6CC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFFFA5B51CF92628001B6CC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFFA5B61CF92628001B6CC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFFFA5BA1CF92628001B6CC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFFA5BB1CF92628001B6CC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFFFA5D41CF92628001B6CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFFFA5D51CF92628001B6CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFFFA5D71CF92628001B6CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.JSProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFFFA5D81CF92628001B6CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.JSProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFFFA5DA1CF92628001B6CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.JSProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSProgressView.app/JSProgressView";
+			};
+			name = Debug;
+		};
+		CFFFA5DB1CF92628001B6CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.JSProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSProgressView.app/JSProgressView";
+			};
+			name = Release;
+		};
+		CFFFA5DD1CF92628001B6CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.JSProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSProgressView;
+			};
+			name = Debug;
+		};
+		CFFFA5DE1CF92628001B6CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.JSProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFFFA5A41CF92628001B6CC0 /* Build configuration list for PBXProject "JSProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFFA5D41CF92628001B6CC0 /* Debug */,
+				CFFFA5D51CF92628001B6CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFFA5D61CF92628001B6CC0 /* Build configuration list for PBXNativeTarget "JSProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFFA5D71CF92628001B6CC0 /* Debug */,
+				CFFFA5D81CF92628001B6CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFFFA5D91CF92628001B6CC0 /* Build configuration list for PBXNativeTarget "JSProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFFA5DA1CF92628001B6CC0 /* Debug */,
+				CFFFA5DB1CF92628001B6CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFFFA5DC1CF92628001B6CC0 /* Build configuration list for PBXNativeTarget "JSProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFFA5DD1CF92628001B6CC0 /* Debug */,
+				CFFFA5DE1CF92628001B6CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFFA5A11CF92628001B6CC0 /* Project object */;
+}
